@@ -1,0 +1,28 @@
+Issue key,Status,Priority,Reporter,Submitted Date,Category,中文描述,English Description
+XBIT-1070,Unspecified,Unspecified,Unspecified,Unspecified,Unspecified,history,history
+XBIT-1075,Progressing,Unspecified,Terrence,2026-05-16,Unspecified,左右两边的空间需要保持一致,these space need to be same
+XBIT-1076,Progressing,Unspecified,Terrence,2026-05-16,Unspecified,这边没有留够安全距离,There wasn't enough safe distance here.
+XBIT-1077,Cancel,Unspecified,Terrence,2026-05-18,Unspecified,app端 输入邀请码的颜色要和上面的邮箱输入框保持一致,The color of the invitation code input on the app should match the email input box above.
+XBIT-1078,Backlog,Unspecified,Terrence,2026-05-18,UX,正在上传的时候是否可以直接点击取消上传,Can I cancel the upload while it is in progress?
+XBIT-1079,Backlog,Unspecified,Terrence,2026-05-18,Bugs,回复状态未更新,raply status not update
+XBIT-1080,Backlog,Unspecified,Terrence,2026-05-24,UX,"使用wallet connect登录默认展示all wallet 这个页面, 用户已经安装的wallet 置顶目前wallet connect钱包数量只有64个很少, 要可以下拉加载更多","Display the ""All Wallets"" page by default when logging in with Wallet Connect, with the wallets that users have already installed at the top.    Currently, there are only 64 wallets available in Wallet Connect, which is very few. Users should be able to load more by pulling down."
+XBIT-1072,Backlog,P1,Frank,2026-05-25,Bugs,"app 首页顶部预测市场的行情数据加载偏慢，
+1、需前后端配合排查速度问题，提供技术解决方案
+2、UI 出Skeleton 的样式，优化加载过程中的展示样式","The market data on the top of the app's home page loads slowly.
+1. The front-end and back-end teams need to collaborate to investigate the speed issue and provide a technical solution.
+2. The UI displays a skeleton layout; optimize the display style during the loading process."
+XBIT-1081,Release,P1,Frank,2026-05-25,Bugs,app:预测市场，上下滑动非常的卡顿。需前端排查问题，提供技术解决方案,App: Prediction Market—scrolling up and down is very laggy. The front-end team needs to investigate the issue and provide a technical solution.
+XBIT-1082,Backlog,P1,Frank,2026-05-25,Bugs,"页面：app:预测市场详情页
+数据加载缓慢。需前后端配合排查速度问题，提供技术解决方案","Page: app: Prediction Market Details Page
+Data is loading slowly. The front-end and back-end teams need to collaborate to investigate the performance issue and provide a technical solution."
+XBIT-1083,Progressing,P1,Frank,2026-05-25,Bugs,app 侧边栏功能入口进入二级页面后，返回需返回到侧面栏页面，不是 app 首页,"When accessing a subpage via a sidebar link in the app, returning takes you back to the sidebar page, not the app's home page."
+XBIT-1084,Backlog,Unspecified,Terrence,2026-05-25,Bugs,动效背景要用透明的,The animated background should be transparent.
+XBIT-1085,Backlog,P1,Frank,2026-05-26,Bugs,预测市场行情列表 tab显示有问题。将该菜单区域改为页面初始化时预加载并占位渲染，避免依赖接口返回后再展示，减少布局抖动与黑屏感，提升首屏感知性能和交互连续性。,"There is an issue with the display of the ""Market Forecast"" tab. Modify this menu area so that it is preloaded and rendered as a placeholder when the page initializes, rather than waiting for API responses before displaying it. This will reduce layout jitter and the ""black screen"" effect, improving the perceived performance of the first screen and ensuring seamless interaction."
+XBIT-1099,Backlog,P0,Frank,2026-05-26,Bugs,"K线区域存在缩放问题""出现无法放大或放大后卡死的情况。","""There is a zooming issue in the candlestick chart area,"" resulting in the inability to zoom in or the chart freezing after zooming in."
+XBIT-1100,Backlog,P0,Frank,2026-05-26,Bugs,预测市场提前结束显示存在缺陷,The early closure of the prediction market indicates that there are flaws
+XBIT-1101,Backlog,P0,Frank,2026-05-26,Bugs,预测赛事数据流存在明显延迟。Polymarket 已展示实时比分和直播/赛况数据，但我们这边页面仍未同步更新，影响用户对盘口和比赛状态的判断。,"There appears to be a significant delay in the live event data feed. Polymarket has already displayed real-time scores and live match updates, but our page has not yet been updated, which is affecting users' ability to assess the odds and the status of the match."
+XBIT-1102,Backlog,P2,Frank,2026-05-26,UI,全局预加载与骨架屏UI 设计。全面梳理所有页面的预加载与骨架屏方案，统一加载逻辑和交互表现，避免目前仅靠单一 loading 导致的白屏、闪烁和体验不一致问题。,"Global Preloading and Placeholder UI Design. Conduct a comprehensive review of preloading and placeholder solutions across all pages to standardize loading logic and interactive behavior, thereby addressing current issues such as blank screens, flickering, and inconsistent user experiences caused by relying solely on a single loading indicator."
+XBIT-1103,Backlog,P2,Frank,2026-05-26,UI,盘口字体 UI 调整。左侧买卖盘口区域的价格和数量字体整体调大一些，提升可读性和视觉层级。,Adjustments to the order book font and UI. The font size for prices and quantities in the order book area on the left has been increased overall to improve readability and visual hierarchy.
+XBIT-1104,Backlog,P0,Frank,2026-05-26,Bugs,预测市场搜索。复制 Polymarket 的事件名称到搜索框后，无法匹配到对应事件，当前搜索结果存在严重偏差。,"Prediction market search. When I copy the event name from Polymarket into the search box, no matching event is found; the current search results are significantly inaccurate."
+XBIT-1105,Backlog,P0,Frank,2026-05-26,Bugs,幸运转盘页面存在无法点击和误触问题，用户滑动/点击转盘时会频繁触发iOS系统的文字识别（Copy/Look Up/Translate）弹窗，影响正常交互。,"The Lucky Wheel page has issues with unresponsive buttons and accidental taps; when users swipe or tap the wheel, the iOS text recognition pop-up (Copy/Look Up/Translate) frequently appears, interfering with normal interaction."
+XBIT-1106,Backlog,P2,Frank,2026-05-26,UI,首页行情列表间距走查,Market List Spacing Walk-through
